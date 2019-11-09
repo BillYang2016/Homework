@@ -1,0 +1,55 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "intelliSenseMode": "clang-x64",
+            "includePath": [
+                "${workspaceFolder}",
+                "C:/Users/Bill Yang/Documents/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0",
+                "C:/Users/Bill Yang/Documents/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/finclude",
+                "C:/Users/Bill Yang/Documents/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include",
+                "C:/Users/Bill Yang/Documents/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++",
+                "C:/Users/Bill Yang/Documents/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits",
+                "C:/Users/Bill Yang/Documents/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/ext",
+                "C:/Users/Bill Yang/Documents/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/ext/pb_ds",
+                "C:/Users/Bill Yang/Documents/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/tr1",
+                "C:/Users/Bill Yang/Documents/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin",
+                "C:/Users/Bill Yang/Documents/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin/bits",
+                "C:/Users/Bill Yang/Documents/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin/ext",
+                "C:/Users/Bill Yang/Documents/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/ssp",
+                "C:/Users/Bill Yang/Documents/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/install-tools",
+                "C:/Users/Bill Yang/Documents/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/install-tools/include",
+                "C:/Users/Bill Yang/Documents/cygwin64/usr/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "__GNUC__=7",
+                "__cdecl=__attribute__((__cdecl__))"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "C:/Users/Bill Yang/Documents/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0",
+                    "C:/Users/Bill Yang/Documents/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/finclude",
+                    "C:/Users/Bill Yang/Documents/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include",
+                    "C:/Users/Bill Yang/Documents/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++",
+                    "C:/Users/Bill Yang/Documents/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits",
+                    "C:/Users/Bill Yang/Documents/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/ext",
+                    "C:/Users/Bill Yang/Documents/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/ext/pb_ds",
+                    "C:/Users/Bill Yang/Documents/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/tr1",
+                    "C:/Users/Bill Yang/Documents/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin",
+                    "C:/Users/Bill Yang/Documents/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin/bits",
+                    "C:/Users/Bill Yang/Documents/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin/ext",
+                    "C:/Users/Bill Yang/Documents/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/ssp",
+                    "C:/Users/Bill Yang/Documents/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/install-tools",
+                    "C:/Users/Bill Yang/Documents/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/install-tools/include",
+                    "C:/Users/Bill Yang/Documents/cygwin64/usr/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 4
+}
