@@ -9,4 +9,6 @@ Files or programs may not be complete,be careful to read or copy.
 1. `x-y` means this is improvement version of example program `x.y` in *C Programming*.
 2. `x-hw-y` means this is homework No.`y` after `x` chapter.
 3. primer-`x.y` means this is improvement version of example program `x.y` in *C Primer Plus*.
-4. Other filenames mean that they are just tools or programs outside books.
+4. No.`x` means this is the `x`th homework.
+5. Ex.`x` means this is the `x`th experiment exercise.
+6. Other filenames mean that they are just tools or programs outside books.
