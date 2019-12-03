@@ -3,14 +3,13 @@
     "tasks": [
         {
             "label": "Compile", // 任务名称，与launch.json的preLaunchTask相对应
-            "command": "g++", // 要使用的编译器
+            "command": "gcc", // 要使用的编译器
             "args": [
                 "${file}",
                 "-o", // 指定输出文件名，不加该参数则默认输出a.exe
                 "${fileDirname}/${fileBasenameNoExtension}.exe",
                 "-g", // 生成和调试有关的信息
                 "-Wall", // 开启额外警告
-                "-std=gnu++11" // C语言最新标准为c11，或根据自己的需要进行修改
             ], // 编译命令参数
             "type": "process",
             "group": {
@@ -24,7 +23,7 @@
                 "panel": "shared" // 不同的文件的编译信息共享一个终端面板
             },
             "problemMatcher": {
-                "owner": "cpp",
+                "owner": "c",
                 "fileLocation": [
                     "relative",
                     "\\"
