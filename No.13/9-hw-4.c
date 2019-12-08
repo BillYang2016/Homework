@@ -11,6 +11,20 @@ void print(struct Student stu[]);
 
 int main() {
 	struct Student stu[10];
+	input(stu);
+	print(stu);
+	return 0;
+}
+
+void print(struct Student stu[]) {
+	for(int i=0; i<5; i++) {
+		printf("%5d%10s\t",stu[i].num,stu[i].name);
+		for(int j=0;j<3;j++)printf("%d\t",stu[i].score[j]);
+		putchar('\n');
+	}
+}
+ 
+void input(struct Student stu[]) {
 	for(int i=0; i<5; i++) {
 		printf("NO.");
 		scanf("%d",&stu[i].num);
@@ -20,16 +34,6 @@ int main() {
 			printf("stu[%d].score[%d]:",i,j);
 			scanf("%d",&stu[i].score[j]);
 		}
-		putchar('\n');
-	}
-	print(stu);
-	return 0;
-}
-
-void print(struct Student stu[]) {
-	for(int i=0; i<5; i++) {
-		printf("%5d%10s\t",stu[i].num,stu[i].name);
-		for(int j=0;j<3;j++)printf("%d\t",stu[i].score[j]);
 		putchar('\n');
 	}
 }

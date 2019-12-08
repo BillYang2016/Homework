@@ -1,0 +1,29 @@
+1
+Bill
+2 3 4
+2
+Bob
+3 4 5
+3
+Alice
+1 5 6
+4
+Candy
+4 2 4
+5
+Erella
+7 5 4
+6
+Rose
+4 3 2
+7
+Turtle
+2 3 5
+8
+Fun
+6 4 4
+9
+Young
+3 6 4
+Wang
+2 1 1
