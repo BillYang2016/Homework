@@ -29,12 +29,11 @@ int Input(struct Teacher *a) {
 }
 
 void Sort(int n,struct Teacher *a) {
-	for(int i=1; i<=n; i++) {
-		int Min=i;
-		for(int j=i+1; j<=n; j++)if(a[j].number<a[Min].number)Min=j;
+	for(int i=2; i<=n; i++) {
 		struct Teacher tmp=a[i];
-		a[i]=a[Min];
-		a[Min]=tmp;
+		int j;
+		for(j=i-1; j>=1&&tmp.number<a[j].number; j--)a[j+1]=a[j];
+		a[j+1]=tmp;
 	}
 }
 
