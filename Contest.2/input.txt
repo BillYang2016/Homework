@@ -1,0 +1,5 @@
+1 Alice 100 70 89
+2 Bob 79 80 76
+3 Cindy 80 90 80
+4 Dannie 75 85 90
+5 Excalibar 92 92 89
